@@ -5,10 +5,15 @@
 // COLORS
 $color__white: var(--color-white);
 $color__black: var(--color-black);
-$color__horizon: var(--color-horizon);
-$color__viridian-green: var(--color-viridian-green);
-$color__golden-sand: var(--color-golden-sand);
-$color__punga: var(--color-punga);
+$color__gray-100: var(--color-gray-100);
+$color__gray-200: var(--color-gray-200);
+$color__gray-300: var(--color-gray-300);
+$color__gray-400: var(--color-gray-400);
+$color__gray-500: var(--color-gray-500);
+$color__gray-600: var(--color-gray-600);
+$color__gray-700: var(--color-gray-700);
+$color__gray-800: var(--color-gray-800);
+$color__gray-900: var(--color-gray-900);
 
 $color__primary: var(--color-primary);
 $color__secondary: var(--color-secondary);
@@ -46,10 +51,15 @@ $screen--xs: var(--screen-xs);
   // add your properties here
   --color-white: #fff;
   --color-black: #000;
-  --color-horizon: #5b7ba6;
-  --color-viridian-green: #5e8c72;
-  --color-golden-sand: #f2c879;
-  --color-punga: #593c19;
+  --color-gray-100: #f8f9fa;
+  --color-gray-200: #e9ecef;
+  --color-gray-300: #dee2e6;
+  --color-gray-400: #ced4da;
+  --color-gray-500: #adb5bd;
+  --color-gray-600: #6c757d;
+  --color-gray-700: #495057;
+  --color-gray-800: #343a40;
+  --color-gray-900: #212529;
 
   --color-primary: var(--color-black);
   --color-secondary: var(--color-horizon);
