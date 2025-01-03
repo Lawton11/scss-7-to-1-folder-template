@@ -61,16 +61,19 @@ $screen--xs: var(--screen-xs);
   --color-gray-800: #343a40;
   --color-gray-900: #212529;
 
-  --color-primary: var(--color-black);
-  --color-secondary: var(--color-horizon);
-  --color-tertiary: var(--color-viridian-green);
-  --color-quaternary: var(--color-golden-sand);
-  --color-quinary: var(--color-punga);
+  --color-primary: #0081a7;
+  --color-secondary: #00afb9;
+  --color-tertiary: #fdfcdc;
+  --color-quaternary: #fed9b7;
+  --color-quinary: #f07167;
   --color-bg: var(--color-white);
 
-  --font-family-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
-  --font-family-mono: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-family-mono: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
+    monospace;
   --font-size: 1rem;
   --font-lh: 1.5;
 
@@ -85,4 +88,49 @@ $screen--xs: var(--screen-xs);
   --screen-md: calc(900 / 16 * 1em);
   --screen-sm: calc(600 / 16 * 1em);
   --screen-xs: calc(320 / 16 * 1em);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    // add your properties here
+    --color-white: #fff;
+    --color-black: #000;
+    --color-gray-100: #f8f9fa;
+    --color-gray-200: #e9ecef;
+    --color-gray-300: #dee2e6;
+    --color-gray-400: #ced4da;
+    --color-gray-500: #adb5bd;
+    --color-gray-600: #6c757d;
+    --color-gray-700: #495057;
+    --color-gray-800: #343a40;
+    --color-gray-900: #212529;
+
+    --color-primary: #0d3b66;
+    --color-secondary: #145374;
+    --color-tertiary: #eeebd3;
+    --color-quaternary: #f4a261;
+    --color-quinary: #e76f51;
+    --color-bg: var(--color-white);
+
+    --font-family-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+    --font-family-mono: Menlo, Monaco, Consolas, "Liberation Mono",
+      "Courier New", monospace;
+    --font-size: 1rem;
+    --font-lh: 1.5;
+
+    --spacing-xl: 6.4rem;
+    --spacing-lg: 3.2rem;
+    --spacing-md: 1.6rem;
+    --spacing-sm: 0.8rem;
+    --spacing-xs: 0.4rem;
+
+    --screen-xl: calc(1900 / 16 * 1em);
+    --screen-lg: calc(1200 / 16 * 1em);
+    --screen-md: calc(900 / 16 * 1em);
+    --screen-sm: calc(600 / 16 * 1em);
+    --screen-xs: calc(320 / 16 * 1em);
+  }
 }
