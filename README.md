@@ -10,6 +10,10 @@
 - https://getbem.com/
 
 
+Feel free to use your own node package to compile the sass file to css
+
+Or else you could use the script currently in package.json
+
 
 scss-7-to-1-folder-template/
 ├── abstracts/
