@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "compile-scss": "scss-to-css main.scss main.css"
+  },
+  "devDependencies": {
+    "@adamlui/scss-to-css": "^1.10.23"
+  }
+}
