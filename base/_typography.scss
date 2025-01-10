@@ -7,9 +7,9 @@ html {
 }
 
 body {
-  font-family: $font__family--sans;
-  font-size: $font__size;
-  line-height: $font__lh;
+  font-family: --font-family-sans;
+  font-size: --font-size;
+  line-height: --font-lh;
 }
 
 blockquote p {
@@ -19,7 +19,7 @@ blockquote p {
 code,
 pre,
 samp {
-  font-family: $font__family--mono;
+  font-family: --font-family-mono;
 }
 
 h1,

@@ -19,12 +19,12 @@ html {
 }
 
 body {
-  color: $color__primary;
-  background-color: $color__bg;
+  color: --color-primary;
+  background-color: --color-bg;
 }
 
 a {
-  color: $color__secondary;
+  color: --colorsecondary;
 }
 
 img {
